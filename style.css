@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+/*----- Header ------- */
+
+/* Image */
+.logo {
+    width: 8rem;
+    height: 7.5rem;
+    display: inline;
+    align-items: center;
+    float: left;
+    padding: 1rem;
+    cursor: pointer;
+}
+
+/* h1 tag */
+
+h1 {
+    text-align: center;
+    height: 9rem;
+    margin-top: 2rem;
+    padding: 2rem;
+    cursor: pointer;
+}
+
+.twitter-title {
+    color: rgb(29, 155, 240);
+}
+
+/* ------------- Main ------------- */
+
+
+/* cross */
+
+div img {
+    width: 3rem;
+    height: 3rem;
+    display: inline;
+    float: left;
+    padding: 1rem;
+}
+
+
+
+
+
+.main-tweet-header {
+    border: 5px solid black;
+    margin: auto auto;
+    padding: 2%;
+    width: 50%;
+    border-radius: 50px;
+    border-color: rgb(29, 155, 240);
+    padding-left: 0;
+}
+
+
+.main-tweet input {
+    margin-left: 0;
+    padding-left: 50px;
+    width: 50rem;
+    height: 15rem;
+    border-style: none;
+    outline-style: none;
+    font-size: 25px;
+}
+
+.everyone {
+    margin-top: 5rem;
+    display: flex;
+    margin-left: 2.5rem;
+}
+
+.everyone img {
+    display: flex;
+}
+
+.everyoneh3 {
+    display: flex;
+    align-items: center;
+}
+
+/* Footer-main */
+
+.add-on {
+    align-items: center;
+    margin: 1rem;
+    margin-left: 3rem;
+    cursor: pointer;
+}
+
+.char-len-140 {
+    color: rgb(29, 209, 29);
+    font-size: large;
+}
+
+.char-len {
+    margin-left: 20rem;
+    font-size: 30px;
+    font-weight: bolder;
+    color: rgb(141, 136, 136);
+}
+
+.btn {
+    margin-top: .5rem;
+    margin-left: 2rem;
+    padding: .6rem 1.4rem;
+    font-size: 20px;
+    background-color: rgb(29, 155, 240);
+    color: white;
+    font-weight: bolder;
+    border-radius: 20px;
+    border-style: none;
+    text-align: center;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.btn:hover {
+    transform: translate(-5px, -5px);
+    transition: 1s;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.btn:active {
+    transform: translate(-5px, 5px);
+    transition: 1s;
+    box-shadow: 2px grey;
+}
+
+
+
+/* Footer-page */
+
+.footer {
+    background-color: rgb(29, 155, 240);
+    height: 5rem;
+}
+
+footer div {
+    margin: 10rem 0 0;
+    padding: 5rem 50rem;
+}

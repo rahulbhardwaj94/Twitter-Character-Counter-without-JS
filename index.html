@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Twitter Character Counter</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap"
+      rel="stylesheet"
+    />
+    <script src="app.js"></script>
+    <script
+      src="https://kit.fontawesome.com/d192bcbc8d.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <img src="twitter-logo.png" alt="twitter-logo" class="logo" />
+      <h1><span class="twitter-title">Twitter</span> Character Counter</h1>
+    </header>
+    <main>
+      <div class="main-tweet-header">
+        <div>
+          <i class="fa-thin fa-xmark cross"></i>
+        </div>
+
+        <div class="main-tweet">
+          <img src="close.png" alt="close-sign-image" />
+          <input
+            type="text"
+            class="tweet-body"
+            id="tweet"
+            placeholder="What's happening?"
+          />
+        </div>
+
+        <div class="everyone">
+          <img src="earth.png" alt="earth-image" class="earth" />
+          <h3 class="everyoneh3">Everyone can reply</h3>
+        </div>
+
+        <hr />
+
+        <div class="add-on">
+          <span class="gallery"><abbr title="gallery"><img src="gallery.png" alt="" /></abbr></span>
+          <span class="gif"><abbr title="GIFs"><img src="gif.png" alt="" /></abbr></span>
+          <span class="poll"><abbr title="Poll"><img src="statistics.png" alt="" /></abbr></span>
+          <span class="emoji"><abbr title="Emoji"><img src="happy.png" alt="" /></abbr></span>
+          <span class="schedule"><abbr title="Schedule"><img src="event.png" alt="" /></abbr></span>
+          <span class="location"><abbr title="Location"><img src="location.png" alt="" /></abbr></span>
+          <span class="char-len-140" id="numshow"><span class="char-len">| </span><abbr title="140 characters">140</abbr></span>
+          <span class="tweet-btn">
+            <button class="btn">Tweet</button>
+          </span>
+        </div>
+      </div>
+    </main>
+
+    <footer class="footer">
+        <div>
+            ©️ Twitter Character Counter
+        </div>
+    </footer>
+  </body>
+</html>
